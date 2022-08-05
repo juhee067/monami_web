@@ -230,7 +230,7 @@ form,
   margin-bottom: 60px;
 }
 
-.newarrival figure {
+.newarrival .array {
   display: flex;
   justify-content: space-between;
   padding-bottom: 100px;
@@ -415,7 +415,7 @@ form,
 #my_modal {
   display: none;
   width: 1000px;
-  padding: 50px 60px;
+  padding: 100px 60px;
   background-color: #fefefe;
   border: 1px solid #888;
   border-radius: 3px;
@@ -432,6 +432,7 @@ form,
   font-weight: 600;
   color: #000;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #my_modal>p::after {
@@ -466,10 +467,10 @@ form,
 
 }
 
-.modal_right p {
+.modal_right>p {
   font-size: 19px;
   color: #666;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 
 }
 
@@ -480,17 +481,26 @@ form,
   font-size: 16px;
   color: #c40f39;
   font-weight: 500;
-  margin-bottom: 7px;
+  margin-bottom: 15px;
 
 
 }
 
-.modal_right ul li>span {
+.modal_right ul li span {
+  display: block;
   font-size: 14px;
   color: #777;
   line-height: 1.8;
+  padding-bottom: 30px;
 
 }
+
+.modal_right .color {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
 
 
 /* section_best product */
