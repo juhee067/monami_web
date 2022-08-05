@@ -31,15 +31,24 @@ form {
 /* header_top */
 .header_top {
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  justify-content: space-between;
+
   line-height: 1.5;
-  padding: 14px 0;
+
   border-bottom: 1px solid #ddd;
 }
 
+.header_top .container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 14px 0;
+
+}
+
+
 .header_top .links {
   display: flex;
+
 }
 
 .header_top ul {
@@ -111,18 +120,18 @@ form {
 } */
 
 /* header_gnb */
-header .gnb {
+.gnb .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .gnb nav {
+.gnb nav {
   display: flex;
   gap: 30px;
 }
 
-header .gnb i {
+.gnb i {
   font-size: 21px;
   font-weight: 500;
   padding-left: 20px;
