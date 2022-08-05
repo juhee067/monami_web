@@ -18,7 +18,8 @@
 section p,
 button,
 .tab_menu,
-form {
+form,
+.box p {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -284,6 +285,57 @@ form {
   color: rgb(158, 158, 158);
 }
 
+.newarrival .itm01 .arrival01 {
+  position: relative;
+  text-align: center;
+}
+
+.newarrival .itm01 .box {
+  display: none;
+}
+
+.newarrival .itm01 .arrival01:hover .box {
+  display: block;
+
+}
+
+
+.newarrival .itm01 .box {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: #5e4370;
+  color: #fff;
+}
+
+.newarrival .itm01 .over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.newarrival .itm01 .box p {
+  letter-spacing: 0.5em;
+  padding: 10px;
+  opacity: 50%;
+}
+
+.newarrival .itm01 .box span {
+  display: block;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.newarrival .itm01 .box i {
+  font-size: 30px;
+  opacity: 50%;
+}
+
 .newarrival .itm01 .kind p:first-child {
   text-align: center;
   line-height: 73px;
@@ -292,6 +344,7 @@ form {
   background: #5e4370;
   color: #fff;
 }
+
 
 .newarrival .itm02 {
   display: flex;
