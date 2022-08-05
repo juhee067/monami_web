@@ -414,7 +414,7 @@ form,
 
 #my_modal {
   display: none;
-  width: 900px;
+  width: 1000px;
   padding: 50px 60px;
   background-color: #fefefe;
   border: 1px solid #888;
@@ -427,14 +427,14 @@ form,
   right: 10px;
 }
 
-#my_modal p {
+#my_modal>p {
   font-size: 38px;
   font-weight: 600;
   color: #000;
   text-align: center;
 }
 
-#my_modal p::after {
+#my_modal>p::after {
   content: "";
   display: block;
   margin: 20px auto;
@@ -450,10 +450,57 @@ form,
 
 }
 
+.modal_right span {
+  font-size: 32px;
+
+}
+
+.modal_right>span::after {
+  content: "";
+  display: block;
+  margin: 20px 0;
+  width: 40px;
+  height: 3px;
+
+  background: #c40f39;
+
+}
+
+.modal_right p {
+  font-size: 19px;
+  color: #666;
+  padding-bottom: 30px;
+
+}
+
+.modal_right ul li>p {
+  padding-left: 13px;
+  background: url(../img/list_bg2.gif) no-repeat left 3px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #c40f39;
+  font-weight: 500;
+  margin-bottom: 7px;
+
+
+}
+
+.modal_right ul li>span {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.8;
+
+}
+
+
 /* section_best product */
 .bestproduct {
   position: relative;
   padding-bottom: 500px;
+}
+
+.modal_box {
+  display: flex;
 }
 
 .bestproduct .title {
