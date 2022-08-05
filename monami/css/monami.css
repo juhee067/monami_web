@@ -414,8 +414,8 @@ form,
 
 #my_modal {
   display: none;
-  width: 300px;
-  padding: 20px 60px;
+  width: 900px;
+  padding: 50px 60px;
   background-color: #fefefe;
   border: 1px solid #888;
   border-radius: 3px;
@@ -425,6 +425,29 @@ form,
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+#my_modal p {
+  font-size: 38px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+
+#my_modal p::after {
+  content: "";
+  display: block;
+  margin: 20px auto;
+  width: 40px;
+  height: 5px;
+
+  background: #c40f39;
+
+}
+
+#my_modal p>span {
+  color: #c40f39;
+
 }
 
 /* section_best product */
